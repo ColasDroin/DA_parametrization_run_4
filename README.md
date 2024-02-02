@@ -13,3 +13,7 @@ Many filling schemes have been tried in the past. We need to settle for one, or 
 
 - No injection optics is available for HL 1.6. Using run III optics for now... But not ideal.
 - I had to adapt some of the $\beta^\*$ in the scenarios to match the available optics. E.g. $\beta^* = 0.59m$ instead of $\beta^* = 0.64m$ as the latter is not available.
+
+## Pile-up constraint
+
+We need to agree on the pile-up constraint in IP 1 and 5. In the past, we haved used 160. However, according to the last presentation from the HL-LHC projec [Commisioning of run 4, Chamonix](https://indico.cern.ch/event/1343931/contributions/5673119/attachments/2790922/4867754/Commissioning%20Run%204.pdf) it seems that 132 would be more appropriate.
