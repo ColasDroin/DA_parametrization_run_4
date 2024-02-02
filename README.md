@@ -13,4 +13,4 @@ Many filling schemes have been tried in the past. We need to settle for one, or 
 ## Missing optics
 
 - No injection optics is available for HL 1.6. Using run III optics for now... But not ideal.
-- I had to adapt some of the $beta^*$ in the scenarios to match the available optics. E.g. $\beta^* = 0.59m$ instead of $\beta^* = 0.64m$ as the latter is not available.
+- I had to adapt some of the $\beta^\*$ in the scenarios to match the available optics. E.g. $\beta^* = 0.59m$ instead of $\beta^* = 0.64m$ as the latter is not available.
