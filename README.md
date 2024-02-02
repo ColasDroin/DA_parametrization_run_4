@@ -8,6 +8,7 @@ In this repository, we aim to summarize a set of scenarios for the HL-LHC (run 4
 
 ![Scenario example](plot_scenarios/HL-LHC_DA_scenario_1_(round).png)
 
+Note that the plot is fully interactive when run in a notebook (useful to see the parameter values all at once, for each phase of the cycle).
 
 ## Parameter values
 
