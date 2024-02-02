@@ -2,6 +2,23 @@
 
 In this repository, we aim to summarize a set of scenarios for the HL-LHC (run 4) DA simulations. Everyone is invited to update the values according to their expertise and knowledge. The goal is to have a set of scenarios that are agreed upon by the community, covering the whole HL-LHC cycle, and that can be used as a reference for DA simulations. Ideally, we would have the final DA results in time for IPAC '24.
 
+## Example of scenario
+
+Here is an example of a scenario:
+
+```csv
+Time (a.u.),Step,Energy (TeV),Emittance (μm),Intensity (1e11 ppb),Beta (m),Luminosity (1e34 cm2/s),Octupoles (A),Crabs (μrad),Chromaticity,Optics
+0,Start injection,0.45,2.0,0,11,0,10,0,15,Skipped
+0.2,End of injection,0.45,2.0,2.3,11,0,10,0,15,operation/optics/R2023a_A11mC11mA10mL10m_PhaseKnob100ON.madx
+0.5,End of ramp,7,2.0,2.3,1,0,?,0,15,Same_as_start_of_collapse
+0.6,Start of collapse,7,2.0,2.3,1,0,?,0,15,flat/start_collapse/opt_collapse_flathv_700_2800_thin.madx (not here anymore)
+0.65,End of collapse,7,2.5,2.3,1,2,?,0,15,?
+0.9,Start of levelling,7,2.5,2.2,0.59,5,60,190,15,acc-models-lhc/strengths/flat/opt_flatvh_500_2000.madx
+2,End of levelling,7,2.5,1.4,0.15,5,60,190,15,acc-models-lhc/strengths/round/opt_flatvh_75_180_1500.madx
+2.5,Dump,7,2.5,1.2,0.15,4,60,190,15,Same as end of levelling
+``````
+
+
 ## Parameter values
 
 Many parameters are still to be better defined. We need at least a lower and upper bound for the following parameters, for each step of the cycle:
