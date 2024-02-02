@@ -6,7 +6,7 @@ In this repository, we aim to summarize a set of scenarios for the HL-LHC (run 4
 
 [Here](https://github.com/ColasDroin/DA_parametrization_run_4/blob/main/scenario_round_1.csv) is an example of a scenario:
 
-[Scenario example](plot_scenarios/HL-LHC_DA_scenario_1_(round).png)
+![Scenario example](plot_scenarios/HL-LHC_DA_scenario_1_(round).png)
 
 
 ## Parameter values
