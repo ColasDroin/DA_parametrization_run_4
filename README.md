@@ -1,6 +1,6 @@
 # Dynamics Aperture (DA) simulations scenarios proposal for HL (run 4)
 
-In this repository, we aime to summarize a set of scenarios for the HL-LHC (run 4) DA simulations.
+In this repository, we aim to summarize a set of scenarios for the HL-LHC (run 4) DA simulations.
 
 ## Filling schemes
 
