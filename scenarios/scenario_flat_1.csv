@@ -1,6 +1,6 @@
 Time (a.u.),Step,Energy (TeV),Emittance (μm),Intensity (1e11 ppb),Beta (m),Luminosity (1e34 cm2/s),Octupoles (A),Crabs (μrad),Chromaticity,Optics
 0,Start injection,0.45,2.0,0,11,0,10,0,15,Skipped
-0.2,End of injection,0.45,2.0,2.3,11,0,10,0,15,operation/optics/R2023a_A11mC11mA10mL10m_PhaseKnob100ON.madx
+0.2,End of injection,0.45,2.0,2.3,11,0,10,0,15,operation/optics/R2023a_A11mC11mA10mL10m_PhaseKnob100ON.madx # is a new one available?
 0.5,End of ramp,7,2.0,2.3,1,0,?,0,15,Same_as_start_of_collapse
 0.6,Start of collapse,7,2.0,2.3,1,0,?,0,15,flat/start_collapse/opt_collapse_flathv_700_2800_thin.madx (not here anymore)
 0.65,End of collapse,7,2.5,2.3,1,2,?,0,15,?
