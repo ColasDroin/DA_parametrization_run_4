@@ -1,6 +1,6 @@
 Time (a.u.),Step,Energy (TeV),Emittance (μm),Intensity (1e11 ppb),Beta (m),Luminosity (1e34 cm2/s),Octupoles (A),Crabs (μrad),Chromaticity,Optics
 0,Start injection,0.45,2.0,0,11,0,-10,0,15,No need to simulate
-0.2,End of injection,0.45,2.0,2.3,11,0,-10,0,15,operation/optics/R2023a_A11mC11mA10mL10m_PhaseKnob100ON.madx # is a new one available?
+0.2,End of injection,0.45,2.0,2.3,11,0,-10,0,15,round/ramp/opt_ramp_6000_thin.madx # no phase knob available for now
 0.5,End of ramp,7,2.5,2.3,1,0,-300 # to be checked by Xavier,0,15, # Check if end of ramp optics available
 0.6,End of squeeze,7,2.5,2.3,1,0,-300 # to be checked by Xavier,0,15,flat/start_collapse/opt_collapse_flathv_700_2800_thin.madx (not here anymore)
 0.65,End of collapse,7,2.5,2.3,1,2,-300 # to be checked by Xavier,0,15,same as previous step
