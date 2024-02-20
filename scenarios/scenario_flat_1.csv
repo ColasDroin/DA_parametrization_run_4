@@ -4,7 +4,7 @@ Time (a.u.),Step,Energy (TeV),Emittance (μm),Intensity (1e11 ppb),Beta (m),Lumi
 0.5,End of ramp,7,2.5,2.3,1,0,-300 # to be checked by Xavier,0,15, # Check if end of ramp optics available
 0.55,End of squeeze,7,2.5,2.3,1,0,-300 # to be checked by Xavier,0,15,flat/start_collapse/opt_collapse_flathv_700_2800_thin.madx (not here anymore)
 0.6,Start of collapse,7,2.5,2.3,1,0,-300 # to be checked by Xavier,0,15,same as previous step
-0.65,End of collapse,7,2.5,2.3,1,2,-300 # to be checked by Xavier,0,15,?
+0.65,End of collapse,7,2.5,2.3,1,2,-300 # to be checked by Xavier,0,15,same as previous step
 0.9,Start of levelling,7,2.5,2.2,0.59,5,-60,190,15,acc-models-lhc/strengths/flat/opt_flatvh_500_2000.madx
 2,End of levelling,7,2.5,1.4,0.15,5,-60,190,15,acc-models-lhc/strengths/round/opt_flatvh_75_180_1500.madx
 2.5,Dump,7,2.5,1.2,0.15,4,-60,190,15,Same as end of levelling
