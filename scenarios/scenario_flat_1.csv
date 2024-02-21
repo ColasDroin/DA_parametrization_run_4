@@ -4,6 +4,6 @@ Time (a.u.),Step,DA study needed,Luminosity (1e34 cm2/s),Energy (TeV),Optics,ATS
 0.5,End of ramp,Y,0,7,ramp/opt_ramp_500_1500_thin.madx,1,[2-2.5],2.3,0.5,-300 (to be checked),0,10
 0.6,End of squeeze/Start of collapse,N,0,7,flat/opt_flathv_500_2000_thin.madx,1/0.25,[2-2.5],2.3,0.5/2,-300 (to be checked),0,10
 0.65,End of collapse,Y,[2-2.5] (depends on filling scheme),7,flat/opt_flathv_500_2000_thin.madx (same as previous step),1/0.25,[2-2.5],2.3,0.5/2,-300 (to be checked),0,10
-0.9,Start of levelling,Y,5,7,SoL/opt_flathv_300_1200_1500_thin.madx (Iannis git),0.41/1.66,[2-2.5],2.3,0.3/1.2,-60, optimized to reach target lumi,10
+0.9,Start of levelling,Y,5,7,SoL/opt_flathv_300_1200_1500_thin.madx (Iannis git),0.41/1.66,[2-2.5],2.3,0.3/1.2,-60, optimized to reach target lumi/PU,10
 2,End of levelling,Y,5,7,flat/opt_flatvh_75_180_1500.madx (no thin optics!),6.66/2.77,[2-2.5],1.4,0.15,-60,190,10
 2.5,Dump,N,4,7,No need to simulate,6.66/2.77,[2-2.5],1.2,0.15,-60,190,10
