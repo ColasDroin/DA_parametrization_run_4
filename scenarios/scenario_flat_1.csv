@@ -1,5 +1,5 @@
 Time (a.u.),Step,Luminosity (1e34 cm2/s),Energy (TeV),Optics,Emittance (μm),Intensity (1e11 ppb),Beta (m),Octupoles (A),Crabs (μrad),Chromaticity
-0,Start injection,0,0.45,No need to simulate,2.0,0,11,-10,0,15
+0,**Start injection**,0,0.45,No need to simulate,2.0,0,11,-10,0,15
 0.2,End of injection,0,0.45,round/ramp/opt_ramp_6000_thin.madx (no phase knob!),2.0,2.3,11,-10,0,15
 0.5,End of ramp,0,7,round/ramp/opt_ramp_500_1500_thin.madx,2.5,2.3,1,-300 # to be checked by Xavier,0,15
 0.6,End of squeeze,0,7,flat/opt_flathv_500_2000_thin.madx,2.5,2.3,1,-300 # to be checked by Xavier,0,15
