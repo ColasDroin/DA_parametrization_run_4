@@ -2,7 +2,7 @@ Time (a.u.),Step,DA study needed,Luminosity (1e34 cm2/s),Energy (TeV),Optics,Emi
 0,Start injection,N,0,0.45,No need to simulate,2.0,0,11,-10,0,15
 0.2,End of injection,Y,0,0.45,round/ramp/opt_ramp_6000_thin.madx (no phase knob!),2.0,2.3,11,-10,0,15
 0.5,End of ramp,Y,0,7,round/ramp/opt_ramp_500_1500_thin.madx,2.5,2.3,1,-300 # to be checked by Xavier,0,15
-0.6,End of squeeze,Y,0,7,flat/opt_flathv_500_2000_thin.madx,2.5,2.3,1,-300 # to be checked by Xavier,0,15
+0.6,End of squeeze/Start of collapse,Y,0,7,flat/opt_flathv_500_2000_thin.madx,2.5,2.3,1,-300 # to be checked by Xavier,0,15
 0.65,End of collapse,Y,2,7,flat/opt_flathv_500_2000_thin.madx (same as previous step),2.5,2.3,1,-300 # to be checked by Xavier,0,15
 0.9,Start of levelling,Y,5,7,flat/opt_flatvh_500_2000_thin.madx (same as previous step),2.5,2.2,0.59,-60,190,15
 2,End of levelling,Y,5,7,round/opt_flatvh_75_180_1500.madx,2.5,1.4,0.15,-60,190,15
