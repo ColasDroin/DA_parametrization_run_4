@@ -20,12 +20,12 @@ Many parameters are still to be better defined. We need at least a lower and upp
 
 ## Filling schemes
 
-Many filling schemes have been tried in the past. We need to settle for one, or maybe a couple. Our main picks are:
+Many filling schemes have been tried in the past. We need to settle for one, or maybe a couple. Our main picks (suggested by Lotta) are:
 
-- ```25ns_2452b_2440_1952_2240_248bpi_12inj_mixed``` as it's a hybrid scheme, therefore more conservative w.r.t. DA since a higher bunch intensity (and therefore lower DA) is needed to reach the target luminosity, while the worst bunch will have the same schedule as the worst bunch from the standard scheme.
-- ```25ns_2760b_2748_2492_2574_288bpi_13inj_800ns_bs200ns```, as it's the standard scheme, and privileged choice for now.
+- The "2700", or ```25ns_2760b_2748_2492_2574_288bpi_13inj_800ns_bs200ns```, as it's the standard scheme, and privileged choice for now.
+- The "2400", or ```25ns_2452b_2440_1952_2240_248bpi_12inj_mixed``` as it's a hybrid scheme, therefore more conservative w.r.t. DA since a higher bunch intensity (and therefore lower DA) is needed to reach the target luminosity, while the worst bunch will have the same schedule as the worst bunch from the standard scheme.
 
-## Missing optics
+## Limited pool of available optics
 
 All the optics in the scenarios csv files are just my best guess. Some might be outdated, and some might be missing. Please update the optics if you have better information. For now:
 
