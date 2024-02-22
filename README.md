@@ -1,6 +1,6 @@
 # Dynamics Aperture (DA) simulations scenarios proposal for HL (run 4)
 
-In this repository, we aim to summarize a set of scenarios for the HL-LHC (run 4) DA simulations. Everyone is invited to update the values according to their expertise and knowledge. The goal is to have a set of scenarios that are agreed upon by the community, covering the whole HL-LHC cycle, and that can be used as a reference for DA simulations. Ideally, we would have the final DA results in time for IPAC '24.
+In this repository, we aim to summarize a set of scenarios for the HL-LHC (run 4) DA simulations. Everyone is invited to update the values according to their expertise and knowledge. The goal is to have a set of scenarios that are agreed upon by the community, covering the whole HL-LHC cycle, and that can be used as a reference for DA simulations (ideally, we would have the final DA results in time for IPAC '24).
 
 ## Example of scenario
 
