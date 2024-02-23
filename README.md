@@ -35,7 +35,7 @@ Should we consider a blow-up at the end of the ramp (going up to 2.5 um)?
 
 ### Chromaticity
 
-The 2022 operational scenario has a chromaticity of 15 for the whole cycle. However, taking into account the last updates (e.g. the BST), should we consider going lower, e.g 10?
+The 2022 operational scenario has a chromaticity of 15 for the whole cycle. However, taking into account the last updates, should we consider going lower, e.g 10?
 
 ### Bunch intensity
 
