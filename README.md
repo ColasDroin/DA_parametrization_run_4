@@ -51,6 +51,7 @@ For DA simulations, we ideally need thin optics, that are already available (as 
 
 - No injection optics with phase knob is available for HL 1.6. For consistency, we decided to use the HL 1.6 injection optics without phase knob (rather than the run III optics with phase knob). Is that fine?
 - Should we go to flat for collapse to decrease crab cavities impedance?
+- The only thin optics available at the end of ramp is ```opt_ramp_500_1500_thin.madx```, which has a smaller beta than the topics at start of collapse. That seems problematic. The alternative would be to use the ```opt_ramp_2000_1500.madx```, but it doesn't seem to be thin. What should we do?
 
 ## Pile-up constraint
 
