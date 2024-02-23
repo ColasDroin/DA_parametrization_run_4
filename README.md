@@ -59,6 +59,9 @@ We need to agree on the pile-up constraint in IP 1 and 5. In the past, we haved 
 ## Useful references
 
 [Run 4 Operational scenario from 2022](https://cds.cern.ch/record/2803611/files/CERN-ACC-2022-0001.pdf)
+
 [Mounet et al., 2024](https://cernbox.cern.ch/s/fvNx0JfKtse1Kjo)
+
 [December talk form Riccardo during december 2023](https://indico.cern.ch/event/1355706/#19-update-on-the-hl-lhc-cycle)
+
 [Commisioning of run 4, Chamonix](https://indico.cern.ch/event/1343931/contributions/5673119/attachments/2790922/4867754/Commissioning%20Run%204.pdf)
