@@ -37,7 +37,7 @@ The 2022 operational scenario has a chromaticity of 15 for the whole cycle. Howe
 
 ### Bunch intensity
 
-Should we go from 2.3 to 2.2 after collapse, just like in the operational scenario? Or keep 2.3 as e.g. in Mounet et al., 2024?
+Should we go from 2.3e11 to 2.2e11 after collapse, just like in the operational scenario? Or should we keep 2.3e11 as e.g. in the simulations presented in *Mounet et al., 2024*?
 
 ## Limited pool of available optics
 
