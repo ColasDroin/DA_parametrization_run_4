@@ -35,6 +35,10 @@ Should we consider a blow-up at the end of the ramp (going up to 2.5 um)?
 
 The 2022 operational scenario has a chromaticity of 15 for the whole cycle. However, taking into account the last updates (e.g. the BST), should we consider going lower, e.g 10?
 
+### Bunch intensity
+
+Should we go from 2.3 to 2.2 after collapse, just like in the operational scenario? Or keep 2.3 as e.g. in Mounet et al., 2024?
+
 ## Limited pool of available optics
 
 All the optics in the scenarios csv files are just my best guess. Some might be outdated, and some might be missing. Please update the optics if you have better information. For now:
@@ -50,5 +54,5 @@ We need to agree on the pile-up constraint in IP 1 and 5. In the past, we haved 
 
 ## Useful references
 
-<https://cds.cern.ch/record/2803611/files/CERN-ACC-2022-0001.pdf> (not up to data as BST, new PU constraints, new filling scheme, etc).
-<https://indico.cern.ch/event/1138716/contributions/5558496/attachments/2730880/4747647/THA1C1_talk.pdf>
+[Run 4 Operational scenario from 2022](https://cds.cern.ch/record/2803611/files/CERN-ACC-2022-0001.pdf) (not up to data as beam screen treatment, new pile-up constraints, new filling scheme, etc).
+[Mounet et al., 2024](https://cernbox.cern.ch/s/fvNx0JfKtse1Kjo)
