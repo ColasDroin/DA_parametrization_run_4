@@ -12,7 +12,9 @@ Note that the plot is fully interactive when run in a notebook (useful to see th
 
 ## Parameter values
 
-Many parameters are still to be better defined. We need at least a value (or a lower and upper bound) for the following parameters, for each step of the cycle:
+We favoured parameters coming from the [Run 4 Operational scenario from 2022](https://cds.cern.ch/record/2803611/files/CERN-ACC-2022-0001.pdf), however, given that this document is not up to date with the latest developments (e.g. beam screen treatment, filling scheme, pile-up constraints, etc.), we also tried to update the values inspiring ourselves from [Mounet et al., 2024](https://cernbox.cern.ch/s/fvNx0JfKtse1Kjo), the [December talk form Riccardo during december 2023](https://indico.cern.ch/event/1355706/#19-update-on-the-hl-lhc-cycle), and the talk presenting the [Commisioning of run 4, Chamonix](https://indico.cern.ch/event/1343931/contributions/5673119/attachments/2790922/4867754/Commissioning%20Run%204.pdf).
+
+Met, many parameters are still to be better defined. We need at least a value (or a lower and upper bound) for the following parameters, for each step of the cycle:
 
 ### Filling schemes
 
@@ -37,11 +39,15 @@ The 2022 operational scenario has a chromaticity of 15 for the whole cycle. Howe
 
 ### Bunch intensity
 
-Should we go from 2.3e11 to 2.2e11 after collapse, just like in the operational scenario? Or should we keep 2.3e11 as e.g. in the simulations presented in *Mounet et al., 2024*?
+Should we go from 2.3e11 to 2.2e11 after collapse, just like in the operational scenario? Or should we keep 2.3e11 as e.g. in the simulations presented in [Mounet et al., 2024](https://cernbox.cern.ch/s/fvNx0JfKtse1Kjo)?
+
+### Crab cavities
+
+Given the last updates, especially regarding the filling scheme, and the available optics at the start of levelling, we were considering optimizing the luminosity at the start of levelling using the crab cavities not to exceed the target lumi or PU constraint. The crab would then be pushed to the max (-190), once the ATS squeezing can't compensate for the loss of lumi (or conversely). Does that seem like a reasonable strategy?
 
 ## Limited pool of available optics
 
-All the optics in the scenarios csv files are just my best guess. Some might be outdated, and some might be missing. Please update the optics if you have better information. For now:
+For DA simulations, we ideally need thin optics, that are already available (as there's not much time to produce new ones, and the deadline for IPAC is coming quickly). However, the pool of available optics is quite limited. 
 
 - No injection optics with phase knob is available for HL 1.6. Using injection optics without phase knob. Is that fine?
 - Should we go to flat for collapse?
@@ -50,9 +56,11 @@ Ideally, we would not have to test more to two optics per cycle phase.
 
 ## Pile-up constraint
 
-We need to agree on the pile-up constraint in IP 1 and 5. In the past, we haved used 160. However, according to the last presentation from the HL-LHC projec [Commisioning of run 4, Chamonix](https://indico.cern.ch/event/1343931/contributions/5673119/attachments/2790922/4867754/Commissioning%20Run%204.pdf) it seems that 132 would be more appropriate.
+We need to agree on the pile-up constraint in IP 1 and 5. In the past, we haved used 160. However, according to the last presentation from the HL-LHC project [Commisioning of run 4, Chamonix](https://indico.cern.ch/event/1343931/contributions/5673119/attachments/2790922/4867754/Commissioning%20Run%204.pdf) it seems that 132 would be more appropriate.
 
 ## Useful references
 
-[Run 4 Operational scenario from 2022](https://cds.cern.ch/record/2803611/files/CERN-ACC-2022-0001.pdf) (not up to data as beam screen treatment, new pile-up constraints, new filling scheme, etc).
+[Run 4 Operational scenario from 2022](https://cds.cern.ch/record/2803611/files/CERN-ACC-2022-0001.pdf) 
 [Mounet et al., 2024](https://cernbox.cern.ch/s/fvNx0JfKtse1Kjo)
+[December talk form Riccardo during december 2023](https://indico.cern.ch/event/1355706/#19-update-on-the-hl-lhc-cycle)
+[Commisioning of run 4, Chamonix](https://indico.cern.ch/event/1343931/contributions/5673119/attachments/2790922/4867754/Commissioning%20Run%204.pdf)
