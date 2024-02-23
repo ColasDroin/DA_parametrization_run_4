@@ -14,7 +14,7 @@ Note that the plot is fully interactive when run in a notebook (useful to see th
 
 We favoured parameters coming from the [Run 4 Operational scenario from 2022](https://cds.cern.ch/record/2803611/files/CERN-ACC-2022-0001.pdf), however, given that this document is not up to date with the latest developments (e.g. beam screen treatment, filling scheme, pile-up constraints, etc.), we also tried to update the values inspiring ourselves from [Mounet et al., 2024](https://cernbox.cern.ch/s/fvNx0JfKtse1Kjo), the [December talk form Riccardo during december 2023](https://indico.cern.ch/event/1355706/#19-update-on-the-hl-lhc-cycle), and the talk presenting the [Commisioning of run 4, Chamonix](https://indico.cern.ch/event/1343931/contributions/5673119/attachments/2790922/4867754/Commissioning%20Run%204.pdf).
 
-Met, many parameters are still to be better defined. We need at least a value (or a lower and upper bound) for the following parameters, for each step of the cycle:
+Yet, many parameters are still to be better defined. We need at least a value (or a lower and upper bound) for the following parameters, for each step of the cycle:
 
 ### Filling schemes
 
@@ -47,12 +47,10 @@ Given the last updates, especially regarding the filling scheme, and the availab
 
 ## Limited pool of available optics
 
-For DA simulations, we ideally need thin optics, that are already available (as there's not much time to produce new ones, and the deadline for IPAC is coming quickly). However, the pool of available optics is quite limited. 
+For DA simulations, we ideally need thin optics, that are already available (as there's not much time to produce new ones, and the deadline for IPAC is coming quickly). However, the pool of available optics is quite limited.
 
-- No injection optics with phase knob is available for HL 1.6. Using injection optics without phase knob. Is that fine?
-- Should we go to flat for collapse?
-
-Ideally, we would not have to test more to two optics per cycle phase.
+- No injection optics with phase knob is available for HL 1.6. For consistency, we decided to use the HL 1.6 injection optics without phase knob (rather than the run III optics with phase knob). Is that fine?
+- Should we go to flat for collapse to decrease crab cavities impedance?
 
 ## Pile-up constraint
 
@@ -60,7 +58,7 @@ We need to agree on the pile-up constraint in IP 1 and 5. In the past, we haved 
 
 ## Useful references
 
-[Run 4 Operational scenario from 2022](https://cds.cern.ch/record/2803611/files/CERN-ACC-2022-0001.pdf) 
+[Run 4 Operational scenario from 2022](https://cds.cern.ch/record/2803611/files/CERN-ACC-2022-0001.pdf)
 [Mounet et al., 2024](https://cernbox.cern.ch/s/fvNx0JfKtse1Kjo)
 [December talk form Riccardo during december 2023](https://indico.cern.ch/event/1355706/#19-update-on-the-hl-lhc-cycle)
 [Commisioning of run 4, Chamonix](https://indico.cern.ch/event/1343931/contributions/5673119/attachments/2790922/4867754/Commissioning%20Run%204.pdf)
