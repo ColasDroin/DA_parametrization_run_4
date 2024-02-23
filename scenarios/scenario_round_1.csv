@@ -1,11 +1,11 @@
-Time (a.u.),Step,DA study critically needed,Luminosity (1e34 cm2/s),Energy (TeV),Optics, Optics link, ATS factor,Emittance (μm),Intensity (1e11 ppb),Beta (m),Octupoles (A),Crabs (μrad),Chromaticity
-0,Start injection,N,0,0.45,No need to simulate,None,1,2.2,0,6,-10,0,10
-0.2,End of injection,Y,0,0.45,opt_ramp_6000_thin (no phase knob!),https://gitlab.cern.ch/acc-models/acc-models-lhc/-/blob/hl16/strengths/ramp/opt_ramp_6000_thin.madx,1,2.2,2.3,6,-10,0,10
-0.5,End of ramp,Y,0,7,opt_ramp_500_1500_thin,https://gitlab.cern.ch/acc-models/acc-models-lhc/-/blob/hl16/strengths/ramp/opt_ramp_500_1500_thin.madx,1,[2.2-2.5],2.3,0.5,-300,0,10
-0.6,Start of collapse,N,0,7,opt_collapse_1100_1500_thin,https://gitlab.cern.ch/iangelis/summer_optics/-/blob/master/collapse/opt_collapse_1000_1500_thin.madx,1,[2.2-2.5],2.3,1,-300,0,10
-0.65,End of collapse,Y,[2-2.5] (depends on filling scheme),7,same as previous step,same as previous step,1,[2.2-2.5],2.2,1,-300,0,10
-0.9,Start of levelling,Y,5,7,opt_levelling_580_1500_thin,https://gitlab.cern.ch/iangelis/summer_optics/-/blob/master/SoL/opt_levelling_580_1500_thin.madx,1,[2.2-2.5],2.2,0.58,-60, optimized to reach target lumi/PU,10
-2,End of levelling,Y,5,7,opt_round_150_1500_optphases_thin,https://gitlab.cern.ch/acc-models/acc-models-lhc/-/blob/hl16/strengths/round/opt_round_150_1500_optphases_thin.madx,3.33,[2.2-2.5],given by machine parameters,0.15,-60,190,10
-2.5,Dump,N,0,7,No need to simulate,None,3.33,[2.2-2.5],unknown,0.15,-60,190,10
+Time (a.u.),Step,DA study critically needed,Optics,Optics link,Luminosity (1e34 cm2/s),Energy (TeV),ATS factor,Emittance (μm),Intensity (1e11 ppb),Beta (m),Octupoles (A),Crabs (μrad),Chromaticity
+0,Start injection,N,No need to simulate,None,0,0.45,1,2.2,0,6,-10,0,10
+0.2,End of injection,Y,opt_ramp_6000_thin (no phase knob!),https://gitlab.cern.ch/acc-models/acc-models-lhc/-/blob/hl16/strengths/ramp/opt_ramp_6000_thin.madx,0,0.45,1,2.2,2.3,6,-10,0,10
+0.5,End of ramp,Y,opt_ramp_500_1500_thin,https://gitlab.cern.ch/acc-models/acc-models-lhc/-/blob/hl16/strengths/ramp/opt_ramp_500_1500_thin.madx,0,7,1,[2.2-2.5],2.3,0.5,-300,0,10
+0.6,Start of collapse,N,opt_collapse_1100_1500_thin,https://gitlab.cern.ch/iangelis/summer_optics/-/blob/master/collapse/opt_collapse_1000_1500_thin.madx,0,7,1,[2.2-2.5],2.3,1,-300,0,10
+0.65,End of collapse,Y,Same as previous step,Same as previous step,[2-2.5] (depends on filling scheme),7,1,[2.2-2.5],2.2,1,-300,0,10
+0.9,Start of levelling,Y,opt_levelling_580_1500_thin,https://gitlab.cern.ch/iangelis/summer_optics/-/blob/master/SoL/opt_levelling_580_1500_thin.madx,5,7,1,[2.2-2.5],2.2,0.58,-60, optimized to reach target lumi/PU,10
+2,End of levelling,Y,opt_round_150_1500_optphases_thin,https://gitlab.cern.ch/acc-models/acc-models-lhc/-/blob/hl16/strengths/round/opt_round_150_1500_optphases_thin.madx,5,7,3.33,[2.2-2.5],given by machine parameters,0.15,-60,190,10
+2.5,Dump,N,No need to simulate,None,0,7,3.33,[2.2-2.5],unknown,0.15,-60,190,10
 
 
