@@ -21,7 +21,7 @@ Yet, many parameters are still to be better defined. We need at least a value (o
 Many filling schemes have been tried in the past. We need to settle for one, or maybe a couple. Given the last updates, our main picks (suggested by Lotta) are:
 
 - The "2700", or ```25ns_2760b_2748_2492_2574_288bpi_13inj_800ns_bs200ns```, as it's the standard scheme, and privileged choice for now.
-- The "2400", or ```25ns_2452b_2440_1952_2240_248bpi_12inj_mixed``` as it's a hybrid scheme, therefore more conservative w.r.t. DA since a higher bunch intensity (and therefore lower DA) is needed to reach the target luminosity, while the worst bunch will have the same schedule as the worst bunch from the standard scheme.
+- The "2400", or ```25ns_2452b_2440_1952_2240_248bpi_12inj_mixed``` as it's a hybrid scheme, therefore more conservative w.r.t. DA since a higher bunch intensity (and therefore lower DA) is needed to reach the target luminosity, while the worst bunch will have the same beam-beam schedule as the worst bunch from the standard scheme.
 
 ### Octupoles
 
