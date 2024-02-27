@@ -12,9 +12,11 @@ Note that the plot is fully interactive when run in a notebook (useful to see th
 
 ## Parameter values
 
+We intend to do tune scans for each critical phase of the cycle.
+
 We favoured parameters coming from the [Run 4 Operational scenario from 2022](https://cds.cern.ch/record/2803611/files/CERN-ACC-2022-0001.pdf), however, given that this document is not up to date with the latest developments (e.g. beam screen treatment, filling scheme, pile-up constraints, etc.), we also tried to update the values inspiring ourselves from [Mounet et al., 2024](https://cernbox.cern.ch/s/fvNx0JfKtse1Kjo), the [WP2 talk form Riccardo during December 2023](https://indico.cern.ch/event/1355706/#19-update-on-the-hl-lhc-cycle), and the talk presenting the [Commisioning of run 4, at Chamonix](https://indico.cern.ch/event/1343931/contributions/5673119/attachments/2790922/4867754/Commissioning%20Run%204.pdf).
 
-Yet, many parameters are still to be better defined. We need at least a value (or a lower and upper bound) for the following parameters, for each step of the cycle.
+Yet, many parameters are still to be better defined. We need at least a value (or a lower and upper bound) for the following parameters, for each step of the cycle. Some other parameters than the tune can also be scanned.
 
 ### Filling schemes
 
