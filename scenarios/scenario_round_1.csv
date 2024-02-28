@@ -1,4 +1,4 @@
-Time (a.u.),Step,DA study needed,Optics,Optics link,Luminosity (1e34 cm2/s),Energy (TeV),ATS factor,Emittance (μm),Intensity (1e11 ppb),Beta* IP1/5 (m),Octupoles (A),Crabs (μrad),Chromaticity,Tune,Half Xing angle IP1/5 (μrad),Separation IP1/5,Half Xing angle IP2/8 (μrad),Separation IP2,Separation IP8
+Time (a.u.),Step,DA needed,Optics,Optics link,Luminosity (1e34 cm2/s),Energy (TeV),ATS factor,Emittance (μm),Intensity (1e11 ppb),Beta* IP1/5 (m),Octupoles (A),Crabs (μrad),Chromaticity,Tune,Half Xing angle IP1/5 (μrad),Separation IP1/5,Half Xing angle IP2/8 (μrad),Separation IP2,Separation IP8
 0,Start injection,N,No need to simulate,None,0,0.45,1,2.2,0,6,-10,0,15,unknown,250,?,±170,?,?
 0.2,End of injection,Y,opt_ramp_6000_thin (no phase knob!),https://gitlab.cern.ch/acc-models/acc-models-lhc/-/blob/hl16/strengths/ramp/opt_ramp_6000_thin.madx,0,0.45,1,2.2,2.3,6,-10,0,15,scanned,250,?,±170,?,?
 0.5,End of ramp,Y,same as start of collapse?,same as start of collapse?,0,7,1,[2.2-2.5],2.3,1.1,-300,0,15,scanned,250,?,±170,?,?
