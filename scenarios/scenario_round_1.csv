@@ -7,4 +7,4 @@ Time (a.u.),Step,DA study critically needed,Optics,Optics link,Luminosity (1e34 
 0.65,End of collapse,Y,Same as previous step,Same as previous step,[2-2.5] (depends on filling scheme),7,1,[2.2-2.5],2.2,Same as previous step,-300,0,15,scanned,250,0,±170,5σ,optimized to reach 2e33 lumi
 0.9,Start of levelling,Y,opt_levelling_580_1500_thin,https://gitlab.cern.ch/iangelis/summer_optics/-/blob/master/SoL/opt_levelling_580_1500_thin.madx,5,7,1,[2.2-2.5],2.2,0.58,-60, optimized to reach target lumi/PU,15,scanned,250,0,±170,5σ,optimized to reach 2e33 lumi
 2,End of levelling,Y,opt_round_150_1500_optphases_thin,https://gitlab.cern.ch/acc-models/acc-models-lhc/-/blob/hl16/strengths/round/opt_round_150_1500_optphases_thin.madx,5,7,3.33,[2.2-2.5],given by machine parameters,0.15,-60,190,15,scanned,250,0,±170,5σ,optimized to reach 2e33 lumi
-2.2,Dump,N,No need to simulate,None,0,7,3.33,[2.2-2.5],?,0.15,-60,190,15,scanned,250,0,±170,5σ,?
+2.2,Dump,N,No need to simulate,None,0,7,3.33,[2.2-2.5],?,0.15,-60,190,15,scanned,250,0,±170,5σ,Same as previous step
